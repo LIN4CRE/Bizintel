@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center badge container (within 66dp safe zone: from 21 to 87) -->
+    <path
+        android:pathData="M54,23 L79,33 L79,57 C79,72 68,82 54,86 C40,82 29,72 29,57 L29,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="29"
+                android:startY="23"
+                android:endX="79"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#213564" />
+                <item android:offset="1.0" android:color="#0F1D38" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Outer Shield Rim Accent -->
+    <path
+        android:pathData="M54,23 L79,33 L79,57 C79,72 68,82 54,86 C40,82 29,72 29,57 L29,33 Z"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="29"
+                android:startY="23"
+                android:endX="79"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#60A5FA" />
+                <item android:offset="1.0" android:color="#F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bar charts -->
+    <path
+        android:pathData="M39,67 L39,55"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8" />
+    <path
+        android:pathData="M47,67 L47,48"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#60A5FA" />
+    <path
+        android:pathData="M55,67 L55,42"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#818CF8" />
+    <path
+        android:pathData="M63,67 L63,38"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#F59E0B" />
+    <!-- Rising Trend Line with Arrow -->
+    <path
+        android:pathData="M37,58 L46,47 L55,49 L68,34"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FFFFFF" />
+    <!-- Arrow Head -->
+    <path
+        android:pathData="M62,34 L68,34 L68,40"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FFFFFF" />
+    <!-- Glowing Node at Peak -->
+    <path
+        android:pathData="M68,34 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#FBBF24" />
+</vector>

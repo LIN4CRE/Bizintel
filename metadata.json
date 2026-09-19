@@ -1,0 +1,7 @@
+{
+  "name": "BizIntel",
+  "description": "Researches company financial health, competitive landscape, and market trends. Generates comprehensive PDF reports, web dashboard strategic plans, and Arena.ai website prompts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
